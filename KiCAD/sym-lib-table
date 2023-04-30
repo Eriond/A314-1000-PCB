@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EDAC Card Edge")(type "KiCad")(uri "${KIPRJMOD}/Symbols/EDAC Card Edge.kicad_sym")(options "")(descr ""))
+  (lib (name "Efinix T8")(type "KiCad")(uri "${KIPRJMOD}/Symbols/t8q144xx.kicad_sym")(options "")(descr ""))
+  (lib (name "t8q144xx")(type "KiCad")(uri "${KIPRJMOD}/Symbols/t8q144xx.kicad_sym")(options "")(descr ""))
+  (lib (name "w25q80dv")(type "KiCad")(uri "${KIPRJMOD}/Symbols/w25q80dv.kicad_sym")(options "")(descr ""))
+  (lib (name "JTAG")(type "KiCad")(uri "${KIPRJMOD}/Symbols/JTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "sn74cbtd3384c")(type "KiCad")(uri "${KIPRJMOD}/Symbols/sn74cbtd3384c.kicad_sym")(options "")(descr ""))
+  (lib (name "Harmony")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Harmony.kicad_sym")(options "")(descr ""))
+  (lib (name "RaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/Symbols/RaspberryPi.kicad_sym")(options "")(descr ""))
+  (lib (name "IS61WV12816EDBLL-10TLI")(type "KiCad")(uri "${KIPRJMOD}/Symbols/IS61WV12816EDBLL-10TLI.kicad_sym")(options "")(descr ""))
+)

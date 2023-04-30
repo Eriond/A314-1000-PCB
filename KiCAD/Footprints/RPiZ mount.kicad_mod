@@ -1,0 +1,55 @@
+(footprint "RPiZ mount" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "RPiZ outline with mounting holes")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 25 0 -90 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dd61cb71-65ed-4183-81ca-fae4d4081271)
+  )
+  (fp_text value "RPiZ mount" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4df27001-1a29-4aff-8b9e-3fe52c2e2411)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b1102d8a-6837-478e-a2e6-6506bacbc3ad)
+  )
+  (fp_line (start -3.5 -25.5) (end -3.5 -29.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp ee7cc05b-c07c-4bea-b9a7-cc1b6d4887b4))
+  (fp_line (start -3.5 29.5) (end -3.5 25.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 28d63989-5a7d-413c-853b-b6ab33c29932))
+  (fp_line (start -0.5 -32.5) (end 23.5 -32.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp dfd0bae0-3d8c-440b-b5af-c24b43f1a402))
+  (fp_line (start 23.5 32.5) (end -0.5 32.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 7fc564e2-9ad4-4fab-9510-72708558549e))
+  (fp_line (start 26.5 -29.5) (end 26.5 29.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 6276a6aa-f485-4792-9616-d85c9df69ecd))
+  (fp_arc (start -3.5 -29.5) (mid -2.62132 -31.62132) (end -0.5 -32.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 23f6fcf5-9c8b-4503-bcb6-892b7999afaf))
+  (fp_arc (start -0.5 32.5) (mid -2.62132 31.62132) (end -3.5 29.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp c616257a-f6b6-482e-b489-703edbcaf1ab))
+  (fp_arc (start 23.5 -32.5) (mid 25.62132 -31.62132) (end 26.5 -29.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 797892d2-3fe0-4a50-980c-18c4564b407d))
+  (fp_arc (start 26.5 29.5) (mid 25.62132 31.62132) (end 23.5 32.5)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 578a30ed-0196-4a9f-a214-5ef7c8a0beb4))
+  (pad "" thru_hole circle (at 23 -29) (size 6.5 6.5) (drill 2.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 9f06207f-4dcb-49f9-801c-f015bfbf2bfe))
+  (pad "" thru_hole circle (at 23 29) (size 6.5 6.5) (drill 2.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 30b0a0a0-e88b-4d3b-a156-51e99dd431ad))
+  (group "" (id 97be9c3b-bcc1-4a23-90ec-15c019ff2188)
+    (members
+      23f6fcf5-9c8b-4503-bcb6-892b7999afaf
+      28d63989-5a7d-413c-853b-b6ab33c29932
+      578a30ed-0196-4a9f-a214-5ef7c8a0beb4
+      6276a6aa-f485-4792-9616-d85c9df69ecd
+      797892d2-3fe0-4a50-980c-18c4564b407d
+      7fc564e2-9ad4-4fab-9510-72708558549e
+      c616257a-f6b6-482e-b489-703edbcaf1ab
+      dfd0bae0-3d8c-440b-b5af-c24b43f1a402
+      ee7cc05b-c07c-4bea-b9a7-cc1b6d4887b4
+    )
+  )
+  (model "${KIPRJMOD}/3D models/Raspberry Pi Zero 2 W.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
