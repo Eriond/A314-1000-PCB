@@ -9,4 +9,5 @@
   (lib (name "Harmony")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Harmony.kicad_sym")(options "")(descr ""))
   (lib (name "RaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/Symbols/RaspberryPi.kicad_sym")(options "")(descr ""))
   (lib (name "IS61WV12816EDBLL-10TLI")(type "KiCad")(uri "${KIPRJMOD}/Symbols/IS61WV12816EDBLL-10TLI.kicad_sym")(options "")(descr ""))
+  (lib (name "PT7C4311")(type "KiCad")(uri "${KIPRJMOD}/Symbols/PT7C4311.kicad_sym")(options "")(descr ""))
 )
