@@ -15,39 +15,25 @@
     (property "ki_description" "Real Time Clock for 1.2-5.5V operation with I2C" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "PT7C4311_0_1"
+      (polyline
+        (pts
+          (xy -8.89 -7.62)
+          (xy -6.8075 -5.7544)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 -8.89)
+          (xy -5.108 -7.2546)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
     (symbol "PT7C4311_1_1"
-      (polyline
-        (pts
-          (xy -8.89 -6.985)
-          (xy -6.9749 -5.5286)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.985 -8.89)
-          (xy -5.4814 -7.0035)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 12.7)
-          (xy -1.2703 12.5235)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 12.7)
-          (xy 1.2696 12.5123)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy -0.635 0.635)
@@ -86,11 +72,11 @@
       (text "X_{2}" (at -3.81 -5.715 0)
         (effects (font (size 1.27 1.27) (color 0 100 100 1)))
       )
-      (pin passive line (at -8.89 -6.985 0) (length 0)
+      (pin passive line (at -8.89 -7.62 0) (length 0)
         (name "X1" (effects (font (size 0 0))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -6.985 -8.89 0) (length 0)
+      (pin passive line (at -6.35 -8.89 0) (length 0)
         (name "X2" (effects (font (size 0 0))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
