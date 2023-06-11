@@ -6,6 +6,6 @@ It is now being sent for a second production run at JLC, with some small modific
 - RTC is now more clearly marked as optional in the schematics.
 - The addition of an equally optional I2C header, for those of you who wish to expand with other I2C peripherals.
 
-For more information on how to bring this hardware to life, please check out Niklas repository at[https://github.com/niklasekstrom/a314-1000-gateware](https://github.com/niklasekstrom/a314-1000-gateware)
+For more information on how to bring this hardware to life, please check out Niklas repository at [https://github.com/niklasekstrom/a314-1000-gateware](https://github.com/niklasekstrom/a314-1000-gateware)
 
 ![PCB](Images/PCB.png?raw=true)
