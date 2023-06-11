@@ -1,7 +1,7 @@
 (footprint "RPiZ mount" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "RPiZ outline with mounting holes")
-  (attr through_hole)
+  (descr "RPiZ outline")
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "REF**" (at 25 0 -90 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dd61cb71-65ed-4183-81ca-fae4d4081271)
@@ -32,8 +32,6 @@
     (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 797892d2-3fe0-4a50-980c-18c4564b407d))
   (fp_arc (start 26.5 29.5) (mid 25.62132 31.62132) (end 23.5 32.5)
     (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 578a30ed-0196-4a9f-a214-5ef7c8a0beb4))
-  (pad "" thru_hole circle (at 23 -29) (size 6.5 6.5) (drill 4.3) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 9f06207f-4dcb-49f9-801c-f015bfbf2bfe))
-  (pad "" thru_hole circle (at 23 29) (size 6.5 6.5) (drill 4.3) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 30b0a0a0-e88b-4d3b-a156-51e99dd431ad))
   (group "" (id 97be9c3b-bcc1-4a23-90ec-15c019ff2188)
     (members
       23f6fcf5-9c8b-4503-bcb6-892b7999afaf
@@ -49,16 +47,6 @@
   )
   (model "${KIPRJMOD}/3D models/Raspberry Pi Zero 2 W.stp"
     (offset (xyz 0 0 -0.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/3D models/SMTSOM2.565BTR.stp"
-    (offset (xyz 23 29 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/3D models/SMTSOM2.565BTR.stp"
-    (offset (xyz 23 -29 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
