@@ -8,4 +8,4 @@ It is now being sent for a second production run at JLC, with some small modific
 
 For more information on how to bring this hardware to life, please check out Niklas repository at [https://github.com/niklasekstrom/a314-1000-gateware](https://github.com/niklasekstrom/a314-1000-gateware)
 
-![PCB](Images/PCB.png?raw=true)
+![PCB](Images/A314-1000%20front.jpg?raw=true)
